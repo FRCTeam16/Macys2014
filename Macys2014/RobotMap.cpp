@@ -79,11 +79,11 @@ void RobotMap::init() {
 	driveTrainGyro = new Gyro(1, 1);
 	lw->AddSensor("DriveTrain", "Gyro", driveTrainGyro);
 	driveTrainGyro->SetSensitivity(0.007);
-	driveTrainFrontLeftDrive = new Jaguar(1, 1);
-	lw->AddActuator("DriveTrain", "FrontLeftDrive", (Jaguar*) driveTrainFrontLeftDrive);
+	driveTrainFrontLeftDrive = new Talon(1, 1);
+	lw->AddActuator("DriveTrain", "FrontLeftDrive", (Talon*) driveTrainFrontLeftDrive);
 	
-	driveTrainFrontRightDrive = new Jaguar(1, 2);
-	lw->AddActuator("DriveTrain", "FrontRightDrive", (Jaguar*) driveTrainFrontRightDrive);
+	driveTrainFrontRightDrive = new Talon(1, 2);
+	lw->AddActuator("DriveTrain", "FrontRightDrive", (Talon*) driveTrainFrontRightDrive);
 	
 	driveTrainRearLeftDrive = new Jaguar(1, 3);
 	lw->AddActuator("DriveTrain", "RearLeftDrive", (Jaguar*) driveTrainRearLeftDrive);

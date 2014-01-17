@@ -363,7 +363,7 @@ Children:
           default: Victor
           name: Type
           validators: null
-          value: Jaguar
+          value: Talon
         Output Channel (PWM): !!robotbuilder.data.properties.ChoicesProperty
           choices: *id008
           default: '1'
@@ -385,7 +385,7 @@ Children:
           default: Victor
           name: Type
           validators: null
-          value: Jaguar
+          value: Talon
         Output Channel (PWM): !!robotbuilder.data.properties.ChoicesProperty
           choices: *id008
           default: '1'
@@ -583,6 +583,6 @@ Properties:
     validators: null, value: 16}
   Export Commands: !!robotbuilder.data.properties.BooleanProperty {default: true,
     name: Export Commands, validators: null, value: true}
-  Java Project Directory: !!robotbuilder.data.properties.FileProperty {default: 'C:\Users\clemenj\NetBeansProjects',
+  Java Project Directory: !!robotbuilder.data.properties.FileProperty {default: 'C:\Users\Owner\NetBeansProjects',
     extension: null, folder: true, name: Java Project Directory, validators: null,
     value: 'C:\Users\clemenj\NetBeansProjects'}
